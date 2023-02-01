@@ -38,10 +38,9 @@ nav #btportfolio, #btsobre{
     cursor: pointer;
     transition: all .3s; 
 }
-nav #btportfolio:hover{
-    color: rgb(21, 66, 114));
+nav #btportfolio:hover, #btsobre:hover{
+    color: rgb(21, 66, 114);
 }
-
 
 #secao-portfolio{
     height: 70vh;
