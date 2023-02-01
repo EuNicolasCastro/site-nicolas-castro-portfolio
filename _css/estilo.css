@@ -44,6 +44,7 @@ nav #btportfolio:hover, #btsobre:hover{
 
 #secao-portfolio{
     height: 70vh;
+    transition: all 10s;
 }
 
 iframe#portfolio{
@@ -57,13 +58,13 @@ iframe#portfolio{
 
 #secao-sobre{
     height: 70vh;
+    transition: all 1s;
 }
 
 
 iframe#sobre-mim{
     width: 100%;
     height: 100%;
-    box-sizing:content-box;
     border: none;
 }
 
