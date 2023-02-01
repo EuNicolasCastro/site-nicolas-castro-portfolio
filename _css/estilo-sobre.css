@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    margin: 0;
+    padding: 1% 15% 0% 10%;
+    font-family: 'Outfit';
+    display: flex;
+}
+.bloco{
+    width: 50%;
+}
+#imagem-perfil{
+    width: 50%;
+}

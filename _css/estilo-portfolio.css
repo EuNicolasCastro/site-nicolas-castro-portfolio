@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    display: flex;
+}
+.bloco{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(255, 127, 127);
+    margin: 0;
+    border: 2px solid black;
+}
