@@ -7,12 +7,50 @@
     font-family: 'Outfit';
     display: flex;
 }
-.bloco{
-    width: 50%;
+.bloco-esquerdo{
+    width: 40%;
+}
+.bloco-direito{
+    width: 60%;
 }
 #imagem-perfil{
-    width: 50%;
+    width: 70%;
 }
 #texto-sobre-mim{
+    padding-top: 10%;
+    text-align: justify;
+    margin-bottom: 10%;
+}
 
+#social-media{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.icones-media{
+    margin-right: 2%;
+    padding-top: 5px;
+}
+
+#bt-resume{
+    margin-left: 20%;
+    height: 40px;
+    font-family: 'Outfit';
+    font-size: 12pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:rgb(21, 66, 114) ;
+    width: 150px;
+    border: 3px solid;
+    border-color:rgb(21, 66, 114) ;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    transition: all .3s;
+}
+
+#bt-resume:hover{
+    background-color:rgb(21, 66, 114) ;
+    color: white;
 }

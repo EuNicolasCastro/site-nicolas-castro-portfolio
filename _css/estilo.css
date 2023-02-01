@@ -10,9 +10,6 @@
     font-family: 'Outfit';
 }
 
-.tela-principal{
-    flex:1;
-}
 
 /*ajeitando o header */
 
@@ -25,6 +22,7 @@ header#cabecalho{
     align-items:center;
     justify-content:space-between;   
 }
+
 nav#menu-principal h1{
     display: none;
 }
@@ -42,15 +40,21 @@ nav #btportfolio:hover, #btsobre:hover{
     color: rgb(21, 66, 114);
 }
 
+.tela-principal{
+    flex:1;
+
+}
+
 #secao-portfolio{
     height: 70vh;
-    transition: all 10s;
+    
 }
 
 iframe#portfolio{
     border: none;
     width: 100%;
     height: 100%;
+        
 }
 
 
@@ -58,7 +62,6 @@ iframe#portfolio{
 
 #secao-sobre{
     height: 70vh;
-    transition: all 1s;
 }
 
 

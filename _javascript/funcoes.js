@@ -11,11 +11,11 @@ secaoSobre.classList.add('desaparecer');
 function aparecerSecaoPortfolio(){
   secaoPortfolio.classList.remove('desaparecer');
   secaoSobre.classList.add('desaparecer');
-  secaoPortfolio.innerHTML = ('<iframe src="portfolio.html" id="portfolio" heigh"100%"  scrolling="no"></iframe>');
+  secaoPortfolio.innerHTML = ('<iframe src="portfolio.html" id="portfolio" heigh"100%"  ></iframe>');
 }
 
 function aparecerSecaoSobre(){
   secaoSobre.classList.remove('desaparecer');
   secaoPortfolio.classList.add('desaparecer');
-  secaoSobre.innerHTML = ('<iframe src="sobre.html" id="sobre-mim" scrolling="no"></iframe>');
+  secaoSobre.innerHTML = ('<iframe src="sobre.html" id="sobre-mim" ></iframe>');
 }
