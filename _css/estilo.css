@@ -31,10 +31,12 @@ nav #btportfolio, #btsobre{
     border: none;
     margin:0 20px 0 20px;
     font-size: 12pt;
+    font-weight: 400;
+    text-transform: lowercase;
     color: rgb(44, 116, 179);
     background: transparent;
     cursor: pointer;
-    transition: all .3s; 
+    transition: all .3s linear;
 }
 nav #btportfolio:hover, #btsobre:hover{
     color: rgb(21, 66, 114);
@@ -46,8 +48,7 @@ nav #btportfolio:hover, #btsobre:hover{
 }
 
 #secao-portfolio{
-    height: 70vh;
-    
+    height: 70vh;    
 }
 
 iframe#portfolio{
